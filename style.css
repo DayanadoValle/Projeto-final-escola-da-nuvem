@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+
+font-family: 'Open Sans', sans-serif;}
+
+
+.container{
+  width: 80%;
+  /* o espaçamento externo segue a direção TOP RIGHT BOTTOM LEFT   */
+  /* agrupar dois valores
+    TOP BOTTOM | RIGHT LEFT
+  */
+  margin: 40px auto;
+
+  /* Espaçamento interno */
+  padding: 30px;
+  
+  background-color: #f1f1f1;
+
+  border-radius: 10px;
+
+}
+header{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
+  padding: auto;
+  width:90%;
+}
+
+main img  {
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px #2EC4B6;
+  display: block;
+  margin: 0px auto;
+}
+  
+}
+/* Seletor Tag filho */
+/*header > img {
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px #2EC4B6;
+  display: block;
+  margin: 0px auto;
+}
+*/
+
+
+footer{
+  text-align: center;
+}
+
+/* Seletor parente */
+footer ul li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+   text-align: center;
+}
+
+
+
+footer li>a{
+  text-decoration: none;
+}
+
+
+.btn{
+  text-decoration: none;
+  font-family: inherit;
+  background-color: #f1f1f1;
+  color: #2EC4B6;
+  padding: 10px;
+  border: 1px solid #2EC4B6;
+  border-radius: 5px;
+  font-size: 15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn:hover{
+  color: #f1f1f1;
+  background-color: #2EC4B6;
+  border-color:#2EC4B6;
+}
+
+.galeria{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.galeria img{
+  width: 100%;
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+}
+
+.close{
+  padding-top: 20px;
+  clear: both;
+}
+
+.contato ul >li {
+  list-style:none;
+  text-align:center;
+  
+  
+}
+
+h1{
+ text-align:center;
+}
+.frase{
+  text-align:center;
+  margin:auto;
+}
+
+h2 {
+  text-align:center;
+  padding:20px;
+  
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #2EC4B6;
+  display: grid;
+  place-items: center;
+  align-items:center;
+  opacity: 0.8;
+  
+}
+
