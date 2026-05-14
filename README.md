@@ -1,6 +1,6 @@
 # :cloud:	 Projeto Final - [Escola da Nuvem](https://www.escoladanuvem.org/) :cloud:	
 ## Fundamentos AWS
-Desenvolvimento de um website (html,css javascript) contendo os currículos do grupo,
+Desenvolvimento de um website contendo os currículos do grupo,
 e a implantação de um ou mais serviços na nuvem AWS, com rede de entrega de conteúdo,
 baixa latência, segurança, e armazenamento durável,
 para atender a demanda de 11 milhões de requisições por mês.
