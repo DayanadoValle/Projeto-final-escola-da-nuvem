@@ -17,4 +17,3 @@ para atender a demanda de 11 milhões de requisições por mês.
 - [WAf & Shield](https://docs.aws.amazon.com/pt_br/waf/latest/developerguide/what-is-aws-waf.html)
 - [Calculadora de preço AWS](https://calculator.aws/#/)
 
-obs: Projeto retirado da AWS para evitar cobranças. [Veja Aqui](https://Projeto-final-escola-da-nuvem.dayanado.repl.co)
